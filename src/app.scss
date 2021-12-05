@@ -1,4 +1,4 @@
-$backgroundColor: #f5f5f5;
+$backgroundColor: #812c37;
 
 html, body {
   height: 100%;
@@ -18,14 +18,14 @@ body {
 
   footer {
     background: darken($backgroundColor, 50);
-    border-top: 1px solid #eee;
+    border-top: 1px solid rgb(59, 28, 117);
     padding: 1em 3em;
     margin: 0;
   }
 
   header {
     background: darken($backgroundColor, 75);
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid rgb(94, 53, 62);
     color: #eee;
     padding: 0;
     margin: 0;
