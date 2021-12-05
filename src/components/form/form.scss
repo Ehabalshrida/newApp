@@ -1,4 +1,4 @@
-$backgroundColor: #efefef;
+$backgroundColor: #8d612e;
 $radius: 40%;
 
 form {
@@ -15,10 +15,10 @@ form {
         cursor: pointer;
         margin-right: 1rem;
         padding: .25rem .5rem;
-        background: #ccc;
+        background: rgb(37, 90, 92);
 
         &:hover, &.active {
-          background: #fff;
+          background: rgb(255, 255, 255);
         }
       }
     }
