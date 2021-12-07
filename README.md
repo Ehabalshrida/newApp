@@ -11,7 +11,15 @@
 
 ## Deployment on sandBox
 
-[Deplyment](https://codesandbox.io/s/red-cdn-shbcg?file=/src/app.scss)
+[Sandbox](https://codesandbox.io/s/red-cdn-shbcg?file=/src/app.scss)
+
+## Deployment on netlify
+[Netlify](https://goofy-torvalds-32aac2.netlify.app/)
+
+
+## Deployment on gh-pages
+[gh-pages](https://ehabalshrida.github.io/newApp/)
+
 ## White Board 
 
 ![WhiteBoard](./whiteBoard.jpg)
