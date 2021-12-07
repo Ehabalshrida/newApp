@@ -1,0 +1,21 @@
+name: Deploy React App
+on:
+  push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [10.x]
+    steps:
+    - uses: actions/checkout@v1
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - name: Deploy to GH Pages
+      run: |
+        git config --global user.name "${{Ehabalshrida}}"
+        git remote set-url origin https://${{ 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}}@github.com/${{ newapp }}.git
+        npm install
+        npm run deploy
