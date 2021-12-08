@@ -26,4 +26,4 @@
 
 ## test 
 
-![test](./lab.PNG)
+![test](./test.PNG)
