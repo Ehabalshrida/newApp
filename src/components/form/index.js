@@ -76,10 +76,10 @@ export default  function Form(props)  {
             <button data-testid="submit" type="submit">GO!</button>
           </label>
           <label className="methods">
-            <span id="GET" onClick={methodeHandler}>GET</span>
-            <span id="POST"onClick={textAreaHandler}>POST</span>
-            <span id="PUT"onClick={textAreaHandler}>PUT</span>
-            <span id="DELETE"onClick={methodeHandler}>DELETE</span>
+            <span id="GET"data-testid="getbut" onClick={methodeHandler}>GET</span>
+            <span id="POST"data-testid="postButt"onClick={textAreaHandler}>POST</span>
+            <span id="PUT"data-testid="putButt"onClick={textAreaHandler}>PUT</span>
+            <span id="DELETE"data-testid="deleteButt"onClick={methodeHandler}>DELETE</span>
           </label>
           {textArea && (
           <textarea rows="15" cols="35" onChange={requestHandler}></textarea>)}
