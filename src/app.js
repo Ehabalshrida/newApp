@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useReducer } from 'react';
+import React, { useState,  useReducer } from 'react';
 import axios from 'axios';
 import History from './components/history/index';
 import 'bootstrap/dist/css/bootstrap.min.css';

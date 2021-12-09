@@ -54,7 +54,7 @@ export default  function Form(props)  {
   };
   
 
-
+ 
   useEffect(
     () => {
       document.getElementById('GET').style.background=colors.Sea;
@@ -64,6 +64,7 @@ export default  function Form(props)  {
       let v = document.getElementById(`${methode}`);
       v.style.background=color;
     },
+    // eslint-disable-next-line
     [methode]
   )
   
